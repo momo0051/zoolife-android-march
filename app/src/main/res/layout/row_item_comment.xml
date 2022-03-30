@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/comment_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dt10"
+        android:paddingEnd="@dimen/dt10"
+        android:paddingBottom="12dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dt10"
+            android:src="@drawable/user_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/idTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textColor="@color/bg_blue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/commentTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address,Address,Address,Address,Address,AddressAddress,"
+                android:textColor="@color/grey_80"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/time_stamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="2020-12-06 16:13:10"
+                android:textColor="@color/light_blue_600"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

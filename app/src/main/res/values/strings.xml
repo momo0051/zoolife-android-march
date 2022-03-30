@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">ZooLife</string>
+    <string name="search">Please enter your keyword</string>
+    <string name="write_message">Write your message here</string>
+    <string name="category">Category</string>
+    <string name="categories">Categories</string>
+    <string name="category1">Category :</string>
+    <string name="all_categories">Site selection </string>
+    <string name="dropdown_item1">All cities‎</string>
+    <string name="main_category">Main Category‎</string>
+
+
+    <string name="all_cities">All cities</string>
+    <string name="closest">Closest</string>
+    <string name="most_recent">Most Recent</string>
+    <string name="favourites">Search</string>
+    <string name="search_item">Explore</string>
+    <string name="toolbar_title">Toolbar Title</string>
+    <string name="location">Location</string>
+    <string name="user_name">Username</string>
+    <string name="notif_msg">This is a one-line message test for notification</string>
+    <string name="notif_date">25th Oct. 2020</string>
+    <string name="posted_on">Today</string>
+    <string name="add_image">Add Image</string>
+    <string name="txt_continue">Continue</string>
+    <string name="title_item">This is test item so le make twio line so that it will fill in it or not ust to check</string>
+    <string name="submit">Submit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dog_info">Gender / Maltese Pure High Standard and Shitzu Pure High Level ️ Sex / Female + Male Age / 42 Yu.</string>
+    <string name="sample_text">The size / dwarf limbs are very small, the price is 2500 riyals per pup for a maltese.</string>
+
+    <!--    Main Activity-->
+    <string name="message">Messages</string>
+    <string name="chat">CHAT</string>
+    <string name="more">More</string>
+    <string name="notification">Notifications</string>
+    <string name="home">Home</string>
+
+    <!--    View More Fragment-->
+    <string name="add_ad">Add New Post</string>
+    <string name="favourite_ad">Favorites</string>
+    <string name="my_favourite">My favorites</string>
+    <string name="my_ads">My Posts</string>
+    <string name="change_city">Change the city</string>
+    <string name="call_us">Call us</string>
+    <string name="call">CALL</string>
+    <string name="order_delivery">Delivery Post </string>
+    <string name="add_auction_post">Add Auctions Post </string>
+    <string name="my_auction">My Auction</string>
+    <string name="order_vet_consultant">Veterinary request</string>
+    <string name="report_missing_pet">Missing Report</string>
+    <string name="policy_terms">Terms and Policy</string>
+    <string name="logout">Log out</string>
+    <string name="black_list">Black list</string>
+    <string name="banned_ads">Banned Ads</string>
+    <string name="spinner_title">Select Category</string>
+
+    <string name="server_key" translatable="false"></string>
+
+    <string name="splash_text">Meet your new animal-friendly place!</string>
+    <string name="hi_there">Hi there</string>
+    <string name="we_are_happy">We \'re glad to see you again Please, let\'s log in first</string>
+    <string name="please_let_sign_up">We are glad to see that you want to join us from, let\'s subscribe first</string>
+    <string name="next">Next</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="log_in">Sign in</string>
+    <string name="otp_message_1">We have sent you an access code via SMS to verify the mobile phone number</string>
+    <string name="otp_message_2">Enter the code here</string>
+
+
+    <string name="about_us_description">We found  ZooLife platform to collect everything related to animals and make it easy for users to search for buying and selling, food, medicine and vet  clinics, and it brings together a group of experts and advisors to provide  and share the best advices  and experiences, ZooLife includes shows and entertainment events in the animal world.</string>
+    <string name="objectives">Our Goals</string>
+    <string name="objective_one">1. Our primary goal is to provide and facilitate services to clients in researching the animal world.</string>
+    <string name="objective_two">2. Establishing forums for the owners of birds, livestock, fish, horses and others.</string>
+    <string name="objective_three">3. A platform that gathers all veterinary clinics, all pharmaceutical and feed companies, and everything related to animals.</string>
+    <string name="advertisement">Advertise</string>
+    <string name="complains">Inquiries</string>
+
+    <string name="post_an_advertisement">Post New Post</string>
+    <string name="show_mobile_number">Show mobile number</string>
+    <string name="add_title">Ad Title</string>
+    <string name="hint_add_title">Enter Ad title</string>
+    <string name="add_description">Ad Description</string>
+    <string name="hint_add_description">Enter Ad Description</string>
+    <string name="confirm_input">Please confirm all inputs</string>
+    <string name="method_of_communication">Select communication Options</string>
+
+    <!--SIGNUP-->
+    <string name="hint_country">Select Country</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_password">Password</string>
+    <string name="have_an_account">Already have an account? Sign in</string>
+
+    <!--Search-->
+    <string name="search_button">Search</string>
+
+    <!--OTP-->
+    <string name="otp_verification">OTP Verification</string>
+
+    <string name="version">Version: </string>
+
+    <!--LOGIN-->
+    <string name="forgot_password">Forgot Your Password?</string>
+    <string name="dont_have_an_account_register">Don\'t have an account with us? Register</string>
+
+    <!--COMMENTS-->
+    <string name="all_cooments">All Comments</string>
+
+    <!--FORGOT PASSWORD-->
+    <string name="hint_enter_mobile_number">Enter your mobile number</string>
+    <string name="hint_enter_password">Enter your password</string>
+    <string name="send">Send</string>
+    <string name="resend_code">Resend the code</string>
+    <string name="resend_code_after">Resend the code after %d seconds</string>
+    <!--DELIVERY-->
+    <string name="delivery_orders">Delivery Orders</string>
+    <string name="add_delivery_ad">Add Delivery</string>
+
+    <!--CHAT-->
+    <string name="title_chat">Chat</string>
+
+    <!--CHANGE PASSWORD-->
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="notification_error">There are no notifications available right now</string>
+
+
+    <!--ADD AD-->
+    <string name="post_an_ad">Post New Post</string>
+    <string name="delete_photos">Delete Photos</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="title">Title</string>
+    <string name="enter_title">Provide the title for Ad</string>
+    <string name="description">Description</string>
+    <string name="enter_description">Provide a description of the Ad</string>
+    <string name="select_way_of_communication">Select way of communication with seller</string>
+    <string name="phone_number">Telephone Number</string>
+    <string name="allow_comments">Allow Comments</string>
+    <string name="allow_messages">Allow Messages</string>
+    <string name="allow_whatsapp">Allow WhatsApp Messages</string>
+    <string name="whatsapp">WHATSAPP</string>
+    <string name="details">Details</string>
+    <string name="write_comments">Write a comments</string>
+    <string name="like">Like</string>
+    <string name="favourite">Favorite</string>
+    <string name="report">Report</string>
+    <string name="show_my_number">Show my phone number</string>
+    <string name="delete_ad">Delete Ad</string>
+    <string name="simillar_ads">Similar ads</string>
+    <string name="add_post">Add post</string>
+    <string name="delete_post">Delete post</string>
+    <string name="send_">Send</string>
+    <string name="show_all_comments">Show all comments</string>
+    <string name="descriptions">Descriptions</string>
+    <string name="warning">Warning</string>
+    <string name="lorem">Appropriate care must be provided to the animal, and provide it with appropriate food. It is forbidden to treat animals harshly or beyond their capacity. When selling, it is preferable to deal with hand and beware of intermediaries and make sure that the bank account belongs to the same person.</string>
+    <string name="show_all">Show all</string>
+    <string name="share">Share</string>
+    <string name="specifications">Specifications</string>
+    <string name="postid">POST ID</string>
+    <string name="age">AGE</string>
+    <string name="vaccine">VACCINE</string>
+    <string name="passport">PASSPORT</string>
+    <string name="auction">Auction</string>
+    <string name="sex">SEX</string>
+    <string name="enter_bid">Enter Bid</string>
+    <string name="place_bid">Place Bid</string>
+    <string name="recent">Recent bidders</string>
+    <string name="auction_close">Auction Close</string>
+    <string name="female">FEMALE</string>
+    <string name="male">MALE</string>
+    <string name="vaccine_detail">Vaccine Details</string>
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+    <string name="add_stater_price">Add starter price</string>
+    <string name="totalday">Total days</string>
+    <string name="hours">Hours</string>
+    <string name="add_new_auction">Add New Auction</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="_55xxxxxxx" translatable="false">55xxxxxxx</string>
+    <string name="city">City</string>
+    <string name="i_like_this_text">I like this post in Zoolife APP</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="choose_picture_gallery">Choose a picture from gallery</string>
+    <string name="choose_a_video_from_gallery">Choose a video from gallery</string>
+    <string name="number_aphabat">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="days">%02d days</string>
+    <string name="hrs">%02d h</string>
+    <string name="mnt">%02d mnt</string>
+    <string name="sec">%02d mnt</string>
+<!--    <string name="ad_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+    <string name="ad_id" translatable="false">ca-app-pub-2256805356702193~3407278840</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-2256805356702193/7154952163</string>
+    <string name="mid_bide">Mid Bid:</string>
+
+    <string-array name="city">
+        <item>Riyadh</item>
+        <item>Eastern</item>
+        <item>Jaddah</item>
+        <item>Makkah</item>
+        <item>Yanbu</item>
+        <item>Hafar al batin</item>
+        <item>Al-Medina</item>
+        <item>Taef</item>
+        <item>Tabouk</item>
+        <item>Qassim</item>
+        <item>Hail</item>
+        <item>Abha</item>
+        <item>Al-Baha</item>
+        <item>Jazan</item>
+        <item>Najran</item>
+        <item>Al-Jouf</item>
+        <item>Arar</item>
+        <item>Aseer</item>
+        <item>Kuwait</item>
+        <item>UAE</item>
+        <item>Bahrain</item>
+        <item>Qatar</item>
+        <item>Oman</item>
+    </string-array>
+</resources>

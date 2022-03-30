@@ -1,0 +1,4 @@
+include ':app'
+//include ':NativeTemplatesAndroid-1.0.0'
+include ':nativetemplates'
+rootProject.name = "ZooLife"

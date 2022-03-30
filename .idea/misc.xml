@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../.gradle/caches/transforms-3/5d00adef226ca2cd10b5a70a6e7285fb/transformed/jetified-exoplayer-ui-2.15.1/res/layout/exo_player_control_view.xml" value="0.1578125" />
+        <entry key="NativeTemplatesAndroid-1.0.0/src/main/res/layout/gnt_medium_template_view.xml" value="0.1578125" />
+        <entry key="NativeTemplatesAndroid-1.0.0/src/main/res/layout/gnt_small_template_view.xml" value="0.1578125" />
+        <entry key="app/src/main/res/drawable/bg_button.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/drawable/bg_spinner.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/drawable/ic_like.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/drawable/navigation_drawer_selector.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/layout-ar/activity_add_ad.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/activity_add_auction.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-ar/activity_add_details.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/activity_auction_details.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/activity_forgot_password.xml" value="0.18" />
+        <entry key="app/src/main/res/layout-ar/activity_full_comment.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/layout-ar/activity_login.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/layout-ar/activity_o_t_p_verification.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/activity_sign_up.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/exo_player_control_view.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/fragment_auction.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-ar/fragment_view_more.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-ar/media_selection.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/row_adimage.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/row_item_auction.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout-ar/row_item_home.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_add_ad.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_add_auction.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_add_details.xml" value="0.1939820742637644" />
+        <entry key="app/src/main/res/layout/activity_auction_details.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_delivery_order.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_fullimage.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_image_detail.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_my_posts.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_o_t_p_verification.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/cat_search_item.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/delivery_item.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/exo_player_control_view.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/fragment_auction.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/fragment_view_more.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/item_admob.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/layout/item_google_add.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/item_slider.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/item_upload_image.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/media_selection.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/photo_layout.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/row_adimage.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_image.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/row_item_auction.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/row_item_comment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/row_item_home.xml" value="0.1578125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17395833333333333" />
+        <entry key="nativetemplates/src/main/res/layout/gnt_medium_template_view.xml" value="0.15833333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/d10"
+    android:layout_marginBottom="@dimen/d10">
+
+
+    <RelativeLayout
+        android:id="@+id/delivery_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delivery_icon"
+        android:layout_marginStart="@dimen/d10"
+        android:layout_marginEnd="@dimen/d10"
+        android:layout_marginBottom="@dimen/d20"
+        android:background="@drawable/bg_selector_category">
+
+        <LinearLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:id="@+id/item_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_weight="1"
+                        android:textSize="20sp"
+                        android:gravity="right"
+                        android:layout_marginRight="35dp"
+                        android:textStyle="bold"
+                        android:text="scff" />
+
+                    <TextView
+                        android:id="@+id/delivery_item_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="name"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+
+
+                    <TextView
+                        android:id="@+id/delivery_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_toStartOf="@+id/ic_location"
+                        android:textColor="@color/black"
+                        android:text="fefeefef"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/ic_location"
+                        android:layout_width="@dimen/d24"
+                        android:layout_height="@dimen/d24"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/location_pin"
+                        app:tint="@color/appColorSearch" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/delivery_item_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_below="@+id/item_username"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleLayout"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="14dp">
+
+            <ImageView
+                android:id="@+id/chat_box"
+                android:layout_width="@dimen/d50"
+                android:layout_height="@dimen/d50"
+                android:layout_centerHorizontal="true"
+
+                android:src="@drawable/messenger2"
+                android:visibility="visible" />
+
+
+            <ImageView
+                android:id="@+id/call_icon"
+                android:layout_width="@dimen/d50"
+                android:layout_height="@dimen/d50"
+
+                android:src="@drawable/call_icon" />
+
+            <ImageView
+                android:id="@+id/whatsapp_icon"
+                android:layout_width="@dimen/d50"
+                android:layout_height="@dimen/d50"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_whatsapp_icon" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/delivery_delete_icon"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="60dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/delivery_icon"
+        android:layout_width="@dimen/d50"
+        android:layout_height="@dimen/d50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-25dp"
+        android:background="@drawable/icon_blue_bg"
+        android:elevation="@dimen/d10"
+        android:padding="8dp"
+        android:rotationY="180"
+        android:src="@drawable/delivery_icon" />
+
+    <ImageView
+        android:id="@+id/delivery_delete_icon"
+        android:layout_width="@dimen/d25"
+        android:layout_height="@dimen/d25"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:elevation="@dimen/d10"
+        android:src="@drawable/red_cross_icon" />
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ZooLife.iml" filepath="$PROJECT_DIR$/.idea/modules/ZooLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ZooLife.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ZooLife.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nativetemplates/ZooLife.nativetemplates.iml" filepath="$PROJECT_DIR$/.idea/modules/nativetemplates/ZooLife.nativetemplates.iml" />
+    </modules>
+  </component>
+</project>

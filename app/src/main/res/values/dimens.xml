@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_offset">20dp</dimen>
+    <dimen name="item_offset_1">10dp</dimen>
+    <dimen name="icon_like_size">24dp</dimen>
+    <dimen name="icon_heart_size">32dp</dimen>
+    <dimen name="badge_size">20dp</dimen>
+    <dimen name="badge_corner">10dp</dimen>
+    <dimen name="badge_margin">10dp</dimen>
+    <dimen name="otp_view_item_size">48dp</dimen>
+    <dimen name="otp_view_item_radius">5dp</dimen>
+    <dimen name="otp_view_item_spacing">5dp</dimen>
+    <dimen name="otp_view_item_line_width">2dp</dimen>
+    <dimen name="otp_view_cursor_width">2dp</dimen>
+</resources>
