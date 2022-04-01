@@ -901,7 +901,7 @@ public class AddDetailsActivity extends AppBaseActivity implements SliderAdapter
         progress_circular.setVisibility(View.VISIBLE);
 
         ApiService apiService = ApiClient.getClient(this).create(ApiService.class);
-        Call<AddPostResponseModel> call = apiService.reportApi("report", add_id, session.getUserId(), input);
+        Call<AddPostResponseModel> call = apiService.reportApi(input, add_id, session.getUserId(), input);
         call.enqueue(new Callback<AddPostResponseModel>() {
             @Override
             public void onResponse(Call<AddPostResponseModel> call, Response<AddPostResponseModel> response) {

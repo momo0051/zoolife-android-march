@@ -48,9 +48,7 @@ public class TimeShow {
 
                         timeVal = " قبل " + days + "يوم ";
                     } else {
-//                System.out.println(days + " days ago");
                         SimpleDateFormat outputFormat = new SimpleDateFormat("dd/MM/yyyy");
-//                Date date = format.parse(dataDate.split(" ")[0]);
 
                         timeVal = outputFormat.format(past.getTime());
                     }
@@ -68,16 +66,12 @@ public class TimeShow {
 
                         timeVal = days + " Days ago ";
                     } else {
-//                System.out.println(days + " days ago");
                         SimpleDateFormat outputFormat = new SimpleDateFormat("dd/MM/yyyy");
-//                Date date = format.parse(dataDate.split(" ")[0]);
 
                         timeVal = outputFormat.format(past.getTime());
                     }
                 }
-//            return
             } catch (Exception j) {
-//                j.printStackTrace();
             }
             return timeVal;
         } else {
@@ -86,18 +80,17 @@ public class TimeShow {
     }
 
 
-
-    public String convertDate(String datetime,Context context){
+    public String convertDate(String datetime, Context context) {
         try {
             DateFormat f = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss");
             Date d = f.parse(datetime.split("\\.")[0]);
 
-            if(d.before(new Date())) return context.getString(R.string.auction_close);
-            DateFormat date = new SimpleDateFormat("MM/dd/yyyy",Locale.ENGLISH);
-            DateFormat time = new SimpleDateFormat("hh:mm a",Locale.ENGLISH);
+            if (d.before(new Date())) return context.getString(R.string.auction_close);
+            DateFormat date = new SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH);
+            DateFormat time = new SimpleDateFormat("hh:mm a", Locale.ENGLISH);
             System.out.println("Date: " + date.format(d));
             System.out.println("Time: " + time.format(d));
-            return  date.format(d) +" "+ time.format(d);
+            return date.format(d) + " " + time.format(d);
         } catch (Exception e) {
             e.printStackTrace();
         }
