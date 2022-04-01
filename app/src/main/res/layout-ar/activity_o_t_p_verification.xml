@@ -47,10 +47,20 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/tv_line2"
+                android:id="@+id/tv_phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_line1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:text="@string/otp_message_2"
+                android:textColor="@color/light_slate_gray"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tv_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_phone"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginBottom="@dimen/d50"

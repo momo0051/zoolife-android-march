@@ -55,6 +55,7 @@ public class OTPVerification extends AppBaseActivity implements View.OnClickList
     ProgressBar progressLiner;
     RelativeLayout signupButton;
     private TextView resend_otp;
+    private TextView tv_phone;
     CountDownTimer cTimer = null;
     private static final String TAG = "OTPVerification";
     // [START declare_auth]
@@ -73,6 +74,7 @@ public class OTPVerification extends AppBaseActivity implements View.OnClickList
         setListeners();
         type = getIntent().getStringExtra("type");
         phone = getIntent().getStringExtra("phone");
+        tv_phone.setText(phone);
         if (type.trim().equals("1")) {
             userName = getIntent().getStringExtra("userName");
             password = getIntent().getStringExtra("password");
@@ -160,6 +162,7 @@ public class OTPVerification extends AppBaseActivity implements View.OnClickList
         progressLiner = findViewById(R.id.progressBar);
         progress_circular = findViewById(R.id.progress_circular);
         resend_otp = findViewById(R.id.resend_otp);
+        tv_phone = findViewById(R.id.tv_phone);
         resend_otp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
