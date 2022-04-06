@@ -505,8 +505,8 @@
 
                             <ImageView
                                 android:id="@+id/iv_call"
-                                android:layout_width="@dimen/d50"
-                                android:layout_height="@dimen/d50"
+                                android:layout_width="@dimen/d45"
+                                android:layout_height="@dimen/d45"
                                 android:src="@drawable/call_icon"
                                 android:visibility="visible" />
 
@@ -597,14 +597,21 @@
                             android:layout_weight="1"
                             android:gravity="center"
                             android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="@dimen/d50"
+                                android:layout_height="@dimen/d50"
+                                app:cardCornerRadius="@dimen/d25"
+                                >
+                                <ImageView
+                                    android:id="@+id/iv_report"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center"
+                                    android:padding="@dimen/dtp5"
+                                    android:src="@drawable/ic_flag" />
 
-                            <ImageView
-                                android:id="@+id/iv_report"
-                                android:layout_width="35dp"
-                                android:layout_height="35dp"
-                                android:layout_gravity="center"
-                                android:padding="@dimen/dtp5"
-                                android:src="@drawable/ic_flag" />
+                            </androidx.cardview.widget.CardView>
+
 
                             <TextView
                                 android:id="@+id/reporttxt"
@@ -657,7 +664,7 @@
                             android:textSize="@dimen/dt22"
                             android:textStyle="bold"
                             android:text="@string/mid_bide"
-                             />
+                            />
 
                         <androidx.appcompat.widget.AppCompatEditText
                             android:id="@+id/edt_bid"

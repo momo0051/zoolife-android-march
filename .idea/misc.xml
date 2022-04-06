@@ -30,7 +30,7 @@
         <entry key="app/src/main/res/layout/activity_add_ad.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/activity_add_auction.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_add_details.xml" value="0.1939820742637644" />
-        <entry key="app/src/main/res/layout/activity_auction_details.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/activity_auction_details.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/activity_delivery_order.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.1578125" />
