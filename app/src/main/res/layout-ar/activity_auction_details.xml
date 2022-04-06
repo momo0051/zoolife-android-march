@@ -138,8 +138,8 @@
                             android:layout_height="@dimen/d240"
 
                             tools:itemCount="10"
-                            tools:listitem="@layout/item_slider" />
-
+                            tools:listitem="@layout/item_slider"
+                            />
                     </androidx.cardview.widget.CardView>
 
                     <TextView
@@ -486,9 +486,8 @@
                         android:layout_margin="@dimen/dt10"
                         android:background="@drawable/round_corner_gray_bg"
                         android:padding="@dimen/d15"
-                        android:text="@string/descriptions"
+                        android:text="@string/descriptions" android:textSize="16sp"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -590,6 +589,33 @@
                                 android:textSize="@dimen/dt12" />
 
                         </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llReport"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_report"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/dtp5"
+                                android:src="@drawable/ic_flag" />
+
+                            <TextView
+                                android:id="@+id/reporttxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dtp5"
+                                android:text="@string/report"
+                                android:textColor="@color/app_bg"
+                                android:textSize="@dimen/dt12" />
+
+                        </LinearLayout>
                     </LinearLayout>
 
 
@@ -627,10 +653,11 @@
                             android:layout_marginStart="@dimen/dt16"
                             android:layout_marginTop="@dimen/dt20"
                             android:layout_marginEnd="16dp"
-                            android:text="@string/mid_bide"
                             android:textColor="@color/app_bg"
                             android:textSize="@dimen/dt22"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="@string/mid_bide"
+                            />
 
                         <androidx.appcompat.widget.AppCompatEditText
                             android:id="@+id/edt_bid"
@@ -652,9 +679,8 @@
                             android:layout_width="@dimen/d150"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="@dimen/d15"
                             android:background="@drawable/btnblue"
-                            android:text="@string/place_bid"
+                            android:text="@string/place_bid" android:layout_marginBottom="@dimen/d15"
                             android:textColor="@color/white" />
 
                     </LinearLayout>
@@ -697,6 +723,7 @@
                             android:layout_margin="@dimen/dt10"
                             android:background="@drawable/round_corner_gray_bg"
                             android:padding="@dimen/d15"
+                            android:textSize="15sp"
                             android:text="@string/lorem"
                             android:textColor="@color/black" />
 
@@ -743,6 +770,7 @@
 
 
     </RelativeLayout>
+
 
 
     <ProgressBar

@@ -1,5 +1,7 @@
 package com.zoolife.app.activity;
 
+import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,6 +9,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -28,7 +31,6 @@ import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.mukesh.OnOtpCompletionListener;
 import com.mukesh.OtpView;
 import com.zoolife.app.R;
 import com.zoolife.app.ResponseModel.SignInResponse.SignInResponseModel;
@@ -368,9 +370,8 @@ public class OTPVerification extends AppBaseActivity implements View.OnClickList
                     // infoDialog("Server Error.");
                     progress_circular.setVisibility(View.GONE);
                     Log.d("sdhjksd", response.body().toString());
-                    Toast.makeText(OTPVerification.this, response.body().getAsJsonObject().get("message").toString(), Toast.LENGTH_LONG).show();
+                   showDialog();
                 }
-
             }
 
             @Override
@@ -382,6 +383,26 @@ public class OTPVerification extends AppBaseActivity implements View.OnClickList
                 progress_circular.setVisibility(View.GONE);
             }
         });
+
+    }
+
+
+    public void showDialog() {
+        final Dialog dialog = new Dialog(OTPVerification.this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(false);
+        dialog.setContentView(R.layout.layout_dialoge);
+
+
+        TextView dialogButton = dialog.findViewById(R.id.btnCancel);
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
 
     }
 }

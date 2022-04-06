@@ -198,6 +198,8 @@
     <string name="ad_id" translatable="false">ca-app-pub-2256805356702193~3407278840</string>
     <string name="ad_unit_id" translatable="false">ca-app-pub-2256805356702193/7154952163</string>
     <string name="mid_bide">Mid Bid:</string>
+    <string name="phone_is_already_in_use_please_try_another_one">Phone is already in use, Please try another one.</string>
+    <string name="okay">Okay</string>
 
     <string-array name="city">
         <item>Riyadh</item>

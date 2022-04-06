@@ -22,6 +22,7 @@
         <entry key="app/src/main/res/layout-ar/exo_player_control_view.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout-ar/fragment_auction.xml" value="0.25" />
         <entry key="app/src/main/res/layout-ar/fragment_view_more.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-ar/layout_dialoge.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/layout-ar/media_selection.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout-ar/row_adimage.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout-ar/row_item_auction.xml" value="0.1578125" />
@@ -49,6 +50,7 @@
         <entry key="app/src/main/res/layout/item_google_add.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/item_slider.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/item_upload_image.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/layout_dialoge.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/layout/media_selection.xml" value="0.25" />
         <entry key="app/src/main/res/layout/photo_layout.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/row_adimage.xml" value="0.25" />

@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -80,6 +81,7 @@ public class AuctionPostDetailsActivity extends AppBaseActivity implements Slide
 
 
     private String adImageUrl;
+    private LinearLayout llReport;
     private ImageView ivCall, ivWhatsapp, ivChat;
     private static Retrofit retrofit = null;
     private String userName;
@@ -150,6 +152,7 @@ public class AuctionPostDetailsActivity extends AppBaseActivity implements Slide
         commentRV.setLayoutManager(new LinearLayoutManager(this));
         ivCall = findViewById(R.id.iv_call);
         ivWhatsapp = findViewById(R.id.iv_whatsapp);
+        llReport = findViewById(R.id.llReport);
         ivChat = findViewById(R.id.iv_chat);
         edt_bid = findViewById(R.id.edt_bid);
         iv_share = findViewById(R.id.iv_share);
@@ -157,7 +160,12 @@ public class AuctionPostDetailsActivity extends AppBaseActivity implements Slide
         rv.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         SnapHelper helper = new PagerSnapHelper();
         helper.attachToRecyclerView(rv);
-
+        llReport.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                reportPost("Reported");
+            }
+        });
         iv_share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
