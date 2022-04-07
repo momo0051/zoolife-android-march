@@ -36,6 +36,7 @@ import com.zoolife.app.ResponseModel.SignInResponse.SignInResponseModel;
 import com.zoolife.app.ResponseModel.SignupResponseModel;
 import com.zoolife.app.network.ApiClient;
 import com.zoolife.app.network.ApiService;
+import com.zoolife.app.utility.CustomDialogConnectionNeeded;
 
 import java.util.concurrent.TimeUnit;
 
@@ -387,21 +388,15 @@ public class OTPVerification extends AppBaseActivity implements View.OnClickList
 
 
     public void showDialog() {
-        final Dialog dialog = new Dialog(OTPVerification.this);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setCancelable(false);
-        dialog.setContentView(R.layout.layout_dialoge);
-
-
-        TextView dialogButton = dialog.findViewById(R.id.btnCancel);
-        dialogButton.setOnClickListener(new View.OnClickListener() {
+        CustomDialogConnectionNeeded dialogConnectionNeeded = new CustomDialogConnectionNeeded(OTPVerification.this);
+        dialogConnectionNeeded.showDialog();
+        dialogConnectionNeeded.setCloseListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dialog.dismiss();
+                dialogConnectionNeeded.dismissDialog();
+                finish();
             }
         });
-
-        dialog.show();
 
     }
 }

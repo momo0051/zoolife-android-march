@@ -1,5 +1,6 @@
 package com.zoolife.app.activity;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,6 +9,7 @@ import android.os.Bundle;
 import android.text.InputType;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -24,6 +26,7 @@ import com.zoolife.app.R;
 import com.zoolife.app.ResponseModel.SignInResponse.SignInResponseModel;
 import com.zoolife.app.network.ApiClient;
 import com.zoolife.app.network.ApiService;
+import com.zoolife.app.utility.CustomDialogConnectionNeeded;
 import com.zoolife.app.utility.LocaleHelper;
 
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
@@ -50,7 +53,7 @@ public class LoginActivity extends AppBaseActivity {
         setContentView(R.layout.activity_login);
 
         loginButton = (RelativeLayout) findViewById(R.id.loginButton);
-        cpp =  findViewById(R.id.ccp);
+        cpp = findViewById(R.id.ccp);
         signupTextview = (TextView) findViewById(R.id.signupTextview);
         ivPLogin = (ToggleButton) findViewById(R.id.ivPLogin);
         editTextUserName = (EditText) findViewById(R.id.editTextUserName);
@@ -137,7 +140,7 @@ public class LoginActivity extends AppBaseActivity {
     public void signInUser() {
 
         progress_circular.setVisibility(View.VISIBLE);
-        String username = "+"+cpp.getSelectedCountryCode()+editTextUserName.getText().toString();
+        String username = "+" + cpp.getSelectedCountryCode() + editTextUserName.getText().toString();
         String password = editTextPassword.getText().toString();
 
         ApiService apiService = ApiClient.getClient(this).create(ApiService.class);
@@ -172,9 +175,8 @@ public class LoginActivity extends AppBaseActivity {
                     session.setDay(responseModel.getData().getBDay());
 
 
-
                     SharedPreferences preferences = getApplicationContext().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
-                    preferences.edit().putBoolean("firstTimeAfterLogin",true);
+                    preferences.edit().putBoolean("firstTimeAfterLogin", true);
 
                     finish();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
