@@ -151,7 +151,7 @@ public class AuctionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
             countDownStart(current.getAuction_expiry_time(), holder.status);
 
-        } else if (current.getViewType() == 1) {
+        } else if (current.getViewType() == 1 && (position == 6)) {
 
             MyAddViewHolder hdl= (MyAddViewHolder) hldr;
             hdl.templateView.setVisibility(View.VISIBLE);
@@ -160,16 +160,21 @@ public class AuctionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             builder.forNativeAd(unifiedNativeAd -> hdl.templateView.setNativeAd(unifiedNativeAd));
             final AdLoader adLoader = builder.build();
             adLoader.loadAd(new AdRequest.Builder().build());
-
+        }
+        else if (current.getViewType()==1){
+            Log.e("Show", "Dont show anything");
         }
     }
 
     @Override
     public int getItemViewType(int position) {
-        if (data.get(position).getViewType() == 0) {
-            return VIEW_TYPE_NORMAL;
+        if (data.get(position).getViewType() == 1 && (position == 6)) {
+            return VIEW_TYPE_AD_MOB;
         }
-        return VIEW_TYPE_AD_MOB;
+        else if (data.get(position).getViewType() == 1) {
+            return VIEW_TYPE_AD_MOB;
+        }
+        return VIEW_TYPE_NORMAL;
     }
 
     @Override
