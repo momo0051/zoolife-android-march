@@ -399,8 +399,7 @@
                                 android:background="@drawable/bg_spinner"
                                 android:elevation="5dp"
                                 android:hint=""
-                                android:digits="@string/number_aphabat"
-                                android:inputType="textCapCharacters"
+                                android:inputType="text"
                                 android:padding="@dimen/dt10"
                                 android:singleLine="true" />
 
