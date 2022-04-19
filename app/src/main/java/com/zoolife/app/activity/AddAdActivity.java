@@ -675,8 +675,10 @@ public class AddAdActivity extends AppBaseActivity
             builder.addFormDataPart("showWhatsapp", "" + whatsApp);
             builder.addFormDataPart("city", location1);
             builder.addFormDataPart("country", "المملكة العربية السعودية");
+            builder.addFormDataPart("age", age.getText().toString());
             builder.addFormDataPart("sex", sex);
             builder.addFormDataPart("passport", passport);
+            builder.addFormDataPart("vaccine_detail", vaccine.getText().toString());
             if (adsImagesPath.size() == 0) {
 
 

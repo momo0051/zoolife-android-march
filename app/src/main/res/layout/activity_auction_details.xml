@@ -128,7 +128,7 @@
                             android:id="@+id/addImage"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/d240"
-                            android:scaleType="fitXY"
+                            android:scaleType="centerInside"
                             android:src="@drawable/def_photo"
                             android:visibility="gone" />
 

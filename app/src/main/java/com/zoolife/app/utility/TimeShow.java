@@ -8,6 +8,7 @@ import com.zoolife.app.R;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
@@ -28,7 +29,11 @@ public class TimeShow {
             try {
                 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 Date past = format.parse(getDate(dataDate));
-                Date now = new Date();
+                Date now1 = new Date();
+                Calendar cal = Calendar.getInstance();
+                cal.setTime(now1);
+                cal.add(Calendar.HOUR, -3);
+                Date now = cal.getTime();
                 long seconds = TimeUnit.MILLISECONDS.toSeconds(now.getTime() - past.getTime());
                 long minutes = TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime());
                 long hours = TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime());

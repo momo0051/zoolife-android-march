@@ -327,11 +327,13 @@ public class HomeFragment extends Fragment {
                         DataItem dataItem = responseModel.getData().get(i);
                         arrayList.add(new HomeModel(dataItem.getItemTitle(), dataItem.getCreatedAt(), dataItem.getCity(), dataItem.getUsername(), dataItem.getImgUrl(), String.valueOf(dataItem.getId()), dataItem.getPriority()));
 
-                        if (i > 0 && i % 5 == 0) {
+                        if (i == 5) {
                             HomeModel obj = new HomeModel();
                             obj.setViewType(1);
                             arrayList.add(obj);
                         }
+
+
                     }
 
                     if (arrayList.size() > 0) {

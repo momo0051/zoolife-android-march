@@ -77,7 +77,7 @@ public class AddDetailsActivity extends AppBaseActivity implements SliderAdapter
     RecyclerView commentRV;
     String add_id = "", from = "";
     TextView descriptionTv, titleTv, idUser, date, city; /*,country;*/
-    SliderImage adImage;
+    ImageView adImage;
     RecyclerView more_imagesRV, more_imagesRA;
     ImageLoaderAdapter imageLoaderAdapter;
     ImageLoaderAdapterRa imageLoaderAdapterRA;
@@ -506,7 +506,7 @@ public class AddDetailsActivity extends AppBaseActivity implements SliderAdapter
                         obj.setUri(responseModel.getData().getImgUrl());
                         listImageView.add(obj);
                         addSlider(listImageView);
-                        adImage.setItems(images);
+                        adImage.setImageResource(Integer.parseInt(images.get(0)));
 
                         ArrayList<ImageModel> arrayList = new ArrayList<>();
                         ArrayList<RelatedAdModel> arrayListRA = new ArrayList<>();

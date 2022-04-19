@@ -198,7 +198,11 @@ public class MainActivity extends AppBaseActivity {
                         if (group.getGroupId().equals(document.getString(Group.GROUP_ID))) {
                             Group groupNew = new Group(document);
 //                                group.
-                            count =  groupNew.getBadges().get(session.getUserId()) + count;
+                            try {
+                                count =  groupNew.getBadges().get(session.getUserId()) + count;
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
                             Log.i("messagesChat",groupNew.getBadges().get(session.getUserId()) + " ----- addGroupSnapshotListener ");
                             groupsList.set(i, groupNew);
                         }

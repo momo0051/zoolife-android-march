@@ -128,7 +128,7 @@
                             android:id="@+id/addImage"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/d240"
-                            android:scaleType="fitXY"
+
                             android:src="@drawable/def_photo"
                             android:visibility="gone" />
 
@@ -136,7 +136,6 @@
                             android:id="@+id/rvSlider"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/d240"
-
                             tools:itemCount="10"
                             tools:listitem="@layout/item_slider"
                             />
